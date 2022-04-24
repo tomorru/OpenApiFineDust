@@ -1,0 +1,9 @@
+{
+  "host": "localhost",
+  "user": "user",
+  "password": "user",
+  "database": "test",
+
+  "apikey_data_or_kr": "",
+  "url_data_or_kr": "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty"
+}
