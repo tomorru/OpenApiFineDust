@@ -1,0 +1,43 @@
+{
+  "name": "samplepjt",
+  "version": "1.0.0",
+  "description": "sample project ",
+  "scripts": {
+    "start": "npx babel-node src/main.js",
+    "test": "  \"test\": \"npm run lint && npm run check && npm run testonly\","
+  },
+  "keywords": [],
+  "author": "kang, byeong-chae",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "debug": "^4.3.4",
+    "express": "^4.17.3",
+    "json-parse": "^1.0.3",
+    "mariadb": "^3.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.1.0",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "axios": "^0.26.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "eslint": "6.6.0",
+    "http-errors": "^2.0.0",
+    "node-cron": "^3.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "xml2js": "^0.4.23"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  }
+}
